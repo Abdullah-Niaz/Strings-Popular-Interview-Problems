@@ -47,8 +47,6 @@ public:
 int main()
 {
     Solution solution;
-
-    // Input from user
     cout << "Enter characters separated by spaces (e.g., a a b b c c c): ";
     vector<char> chars;
     char ch;
