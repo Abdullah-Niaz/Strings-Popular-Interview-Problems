@@ -5,7 +5,7 @@ class Solution:
 
         if m != n:
             return False
-
+ 
         freq1 = [0] * 26
         freq2 = [0] * 26
 
@@ -32,7 +32,6 @@ class Solution:
         freq2.sort()
 
         return freq1 == freq2
-
 
 # Example usage
 if __name__ == "__main__":
