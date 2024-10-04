@@ -51,8 +51,8 @@ public:
 int main()
 {
     Solution solution;
-    string word1 = "abc";
-    string word2 = "bca";
+    string word1 = "amma";
+    string word2 = "mama";
 
     if (solution.closeStrings(word1, word2))
     {
